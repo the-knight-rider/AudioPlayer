@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         mediaPlayer.prepareAsync(); // Moved inside the setOnPreparedListener block
         // mediaPlayer.start(); // Removed this line as it's already started in onPrepared()
-
+//
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
